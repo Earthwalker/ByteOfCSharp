@@ -1,0 +1,152 @@
+* 
+{
+	margin: 0;
+}
+
+html, body 
+{
+    height: 100%;
+    margin: 0 auto;
+}
+
+#wrap
+{
+    min-height: -webkit-calc(100% - 40px); /* Chrome */
+    min-height: -moz-calc(100% - 40px);    /* Firefox */
+    min-height: calc(100% - 40px);     	/* native */
+}
+
+#banner
+{
+	font-size: 70%;
+	line-height: 1;
+	text-align: center;
+	color: #000000;
+	background-color: #00ace6;
+}
+
+ul.menu-list
+{
+	list-style-type: none;
+	text-align: center;
+	padding-top: 10;
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+li.menu-item
+{
+	display: inline;
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+a.item-link
+{
+	font-family: Consolas;
+	font-size: 120%;
+	line-height: 1;
+	text-decoration: none;
+	color: #00ace6;
+	position: relative;
+}
+
+a.item-link:hover
+{
+	color: #E6E6E6;
+}
+
+body
+{
+	max-width: 1024px;
+	font-family: Consolas;
+	color: #E6E6E6;
+	background-color: #1e1e1e;
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
+p
+{
+	word-break: break-all;
+	margin-top: 1em;
+}
+
+#content
+{
+	padding: 1em;
+	margin-top: 1em;
+}
+
+#home
+{
+	background-color: #00ace6;
+}
+
+#home-banner
+{
+	max-width: 1024px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 40%;
+    margin: auto;
+	font-size: 70%;
+	line-height: 1;
+	text-align: center;
+	color: #000000;
+	background-color: #00ace6;
+}
+
+#home-menu
+{
+	max-width: 1024px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 40%;
+    margin: auto;
+	font-size: 70%;
+	line-height: 14;
+	text-align: center;
+	vertical-align: bottom;
+	color: #000000;
+}
+
+a.home-item-link:hover
+{
+	color: #E6E6E6;
+}
+
+a.home-item-link
+{
+	font-family: Consolas;
+	text-decoration: none;
+	color: #000000;
+	position: relative;
+}
+
+#footer
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	max-width: 1024px;
+	width: 100%;
+	height: 1.25em;
+	line-height: 1.25em;
+	font-size: 0.8em;
+	text-align: center;
+	vertical-align: middle;
+	color: #000000;
+	background-color: #00ace6;
+}

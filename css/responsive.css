@@ -1,0 +1,38 @@
+@media screen and (max-width: 768px)
+{
+	#home-menu,
+	#home-banner,
+	#banner
+	{
+		font-size: 44%;
+	}
+}
+
+@media screen and (max-width: 480px)
+{
+	#wrap
+	{
+		min-height: -webkit-calc(100% - 2.5em);	/* Chrome */
+		min-height: -moz-calc(100% - 2.5em);   	/* Firefox */
+		min-height: calc(100% - 2.5em);     		/* native */
+	}
+
+	#home-menu,
+	#home-banner,
+	#banner
+	{
+		font-size: 32%;
+	}
+	
+	ul.menu-list
+	{
+		font-size: 100%;
+	}
+	
+	#footer
+	{
+		height: 2.5em;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+}
