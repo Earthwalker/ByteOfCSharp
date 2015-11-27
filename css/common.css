@@ -72,7 +72,7 @@ body
 
 p
 {
-	word-break: break-all;
+	word-break: word-break;
 	margin-top: 1em;
 }
 
